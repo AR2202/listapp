@@ -1,0 +1,18 @@
+-lists in DB
+
+list
+	user
+	name
+	mixins
+listtolist
+	parent
+	list
+listitems
+	item
+	list
+	visibility (public private protected)
+	listposition
+
+items
+	user
+	name

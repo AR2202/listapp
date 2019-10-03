@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "3a248450-977a-4691-b53f-ea0c31921aee",
+		"name": "Lists",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\": \"testUsername\",\n\t\"password\": \"testPassword\",\n\t\"email\": \"test@test.com\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3101/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3101",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

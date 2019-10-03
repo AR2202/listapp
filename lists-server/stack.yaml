@@ -1,0 +1,7 @@
+flags: {}
+packages:
+- .
+
+extra-deps:
+- pwstore-purehaskell-2.1.4
+resolver: lts-13.25
